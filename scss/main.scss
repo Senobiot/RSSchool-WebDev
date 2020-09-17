@@ -7,6 +7,7 @@ body {
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 140%;
+	//background-color: #cacaca;
 }
 // ------------------- header -----------------------------------
 .header {
@@ -423,5 +424,48 @@ p {
 			}
 		}
 	}
+}
+//----------------footer-----------------------------
+footer {
+	padding: 0 160px;
+	width: 1600px;
+	height: 184px;
+	margin: 0 auto;
+	background-color: #000;
+	display: flex;
+	align-items: center;
+}
+.links {
+	width: 273px;
+	margin-right: 345px;
+	a {
+		display: inline-block;
+		font-size: 14px;
+		line-height: 140%;
+		color: #fff;
+		opacity: 0.98;
+		transition: 0.5s;
+		&:hover {
+			color: #00AFDB;
+		}
+
+		&:first-child {
+			width: 65px;
+		}
+		&:nth-child(2) {
+			width: 86px;
+			text-align: center;
+		}
+		&:last-child {
+			width: 85px;
+			padding-left: 20px;
+		}
+	}
+}
+.logo {
+	margin-right: 448px;
+}
+.copyright {
+	color: #818181;
 }
 
