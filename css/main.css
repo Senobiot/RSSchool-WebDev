@@ -366,8 +366,11 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
-  .slides img:not(:last-child) {
-    margin-right: 30px; }
+  .slides img {
+    width: 407px;
+    height: 244px; }
+    .slides img:not(:last-child) {
+      margin-right: 30px; }
 
 @-webkit-keyframes arrow {
   50% {

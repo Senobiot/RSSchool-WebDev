@@ -275,8 +275,12 @@ p {
 
 .slides {
 	display: flex;
-	& img:not(:last-child) {
+	img {
+		width: 407px;
+		height: 244px;
+		&:not(:last-child) {
 		margin-right: 30px;
+		}
 	}
 }
 
