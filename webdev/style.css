@@ -1,22 +1,22 @@
 @charset "UTF-8";
 @font-face {
   font-family: 'Roboto';
-  src: url("../assets/fonts/Roboto-Regular.eot");
-  src: local("Roboto"), local("Roboto-Regular"), url("../assets/fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Roboto-Regular.woff") format("woff"), url("../assets/fonts/Roboto-Regular.ttf") format("truetype");
+  src: url("assets/fonts/Roboto-Regular.eot");
+  src: local("Roboto"), local("Roboto-Regular"), url("assets/fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/Roboto-Regular.woff") format("woff"), url("assets/fonts/Roboto-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Roboto';
-  src: url("../assets/fonts/Roboto-Bold.eot");
-  src: local("Roboto Bold"), local("Roboto-Bold"), url("../assets/fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Roboto-Bold.woff") format("woff"), url("../assets/fonts/Roboto-Bold.ttf") format("truetype");
+  src: url("assets/fonts/Roboto-Bold.eot");
+  src: local("Roboto Bold"), local("Roboto-Bold"), url("assets/fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/Roboto-Bold.woff") format("woff"), url("assets/fonts/Roboto-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
   font-family: 'Roboto';
-  src: url("../assets/fonts/Roboto-Medium.eot");
-  src: local("Roboto Medium"), local("Roboto-Medium"), url("../assets/fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/Roboto-Medium.woff") format("woff"), url("../assets/fonts/Roboto-Medium.ttf") format("truetype");
+  src: url("assets/fonts/Roboto-Medium.eot");
+  src: local("Roboto Medium"), local("Roboto-Medium"), url("assets/fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("assets/fonts/Roboto-Medium.woff") format("woff"), url("assets/fonts/Roboto-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal; }
 
@@ -160,7 +160,7 @@ body {
   margin: 0 auto;
   width: 1600px;
   height: 744px;
-  background: url("../assets/img/bg-image.png") no-repeat 50%/cover; }
+  background: url("assets/img/bg-image.png") no-repeat 50%/cover; }
   .your-life .site_title {
     padding-top: 230px;
     padding-left: 4px;
@@ -443,7 +443,7 @@ p {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-  background: url("../assets/img/subscribe_bg.png") no-repeat 50%/cover; }
+  background: url("assets/img/subscribe_bg.png") no-repeat 50%/cover; }
   .subscribe h2 {
     width: 100%;
     height: 28px;
@@ -487,7 +487,7 @@ p {
         background-color: #00AFDB;
         position: relative;
         cursor: pointer;
-        background: url("../assets/img/fa-check.png") no-repeat center #00AFDB;
+        background: url("assets/img/fa-check.png") no-repeat center #00AFDB;
         -webkit-transition: 0.2s;
         -o-transition: 0.2s;
         transition: 0.2s; }
